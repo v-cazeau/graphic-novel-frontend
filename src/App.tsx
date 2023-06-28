@@ -1,13 +1,16 @@
 import React from 'react';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     
-      </header>
-    </div>
+    <HashRouter>
+      <Routes>        
+        <Route path="/" element={ <Homepage /> } />
+      </Routes>
+    </HashRouter>
   );
 }
 
