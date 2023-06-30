@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import {  Book } from 'react-bootstrap-icons';
 import { Button, Offcanvas, Nav } from "../../utilis/Bootstrap";
 
 interface OffCanvasExampleProps {
-  name: string;
   placement: string;
 }
 
-function OffCanvasExample({ name, placement, ...props }: OffCanvasExampleProps) {
+function OffCanvasExample({ placement, ...props }: OffCanvasExampleProps) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -16,7 +16,7 @@ function OffCanvasExample({ name, placement, ...props }: OffCanvasExampleProps) 
   return (
     <>
       <Button variant="primary" onClick={handleShow} className="me-2">
-        {name}
+        < Book color="white" size={25} />
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
@@ -37,7 +37,7 @@ function CanvasPlacement() {
   return (
     <>
       {['start'].map((placement, idx) => (
-        <OffCanvasExample key={idx} placement={placement} name={placement}/>
+        <OffCanvasExample key={idx} placement={placement} />
       ))}
     </>
   );
