@@ -16,16 +16,16 @@ function OffCanvasExample({ placement, ...props }: OffCanvasExampleProps) {
   return (
     <>
       <Button variant="primary" onClick={handleShow} className="me-2">
-        < Book color="white" size={25} />
+        < Book color="silver" size={25} />
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Quirky Chronicles: Tales of the Unexpected</Offcanvas.Title>
+          <Offcanvas.Title>Table of Content</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav>
-            <Nav.Link as={Link} to='/'>Homepage</Nav.Link>
-            <Nav.Link as={Link} to='/episode-1'>Episode 1</Nav.Link>
+            <Nav.Link as={Link} to='/'>Home</Nav.Link>
+            <Nav.Link as={Link} to='/visual-1'>Visual One</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>

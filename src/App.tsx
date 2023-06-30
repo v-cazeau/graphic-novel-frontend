@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>        
         <Route path="/" element={ <Homepage /> } />
-        <Route path="/episode-1" element={ <VisualOne /> } />
+        <Route path="/visual-1" element={ <VisualOne /> } />
       </Routes>
     </BrowserRouter>
   );
