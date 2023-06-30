@@ -9,7 +9,7 @@ interface AppLayoutProps {
 const AppLayout = ({children}: AppLayoutProps) => {
     return (
         <>
-        <OffCanvas/>
+        <OffCanvas />
         {children}
         <Footer />
         </>

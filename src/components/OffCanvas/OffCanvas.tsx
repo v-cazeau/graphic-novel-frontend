@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Offcanvas } from "../../utilis/Bootstrap";
+import { Link } from 'react-router-dom';
+import { Button, Offcanvas, Nav } from "../../utilis/Bootstrap";
 
 interface OffCanvasExampleProps {
   name: string;
@@ -19,10 +20,13 @@ function OffCanvasExample({ name, placement, ...props }: OffCanvasExampleProps) 
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Quirky Chronicles: Tales of the Unexpected</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui exercitationem fuga eos eius temporibus unde. Similique iure eligendi accusantium totam excepturi vero doloremque non maiores repellendus, quisquam sunt distinctio numquam!
+          <Nav>
+            <Nav.Link as={Link} to='/'>Homepage</Nav.Link>
+            <Nav.Link as={Link} to='/episode-1'>Episode 1</Nav.Link>
+          </Nav>
         </Offcanvas.Body>
       </Offcanvas>
     </>
@@ -33,7 +37,7 @@ function CanvasPlacement() {
   return (
     <>
       {['start'].map((placement, idx) => (
-        <OffCanvasExample key={idx} placement={placement} name={placement} />
+        <OffCanvasExample key={idx} placement={placement} name={placement}/>
       ))}
     </>
   );

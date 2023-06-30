@@ -23,3 +23,11 @@ section {
 .vn1-caption {
   color: rgb(93, 93, 93);
 }
+
+//Footer
+
+.footer {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
