@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "types": ["gsap",
+              "next/router",
+              "next"],
+    "baseUrl": ".",
+    "paths": {
+        "next/router": ["node_modules/next-router"]},
     "lib": [
       "dom",
       "dom.iterable",
