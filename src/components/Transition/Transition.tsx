@@ -4,8 +4,12 @@ import { useRouter } from 'next/router';
 import gsap from 'gsap/dist/gsap';
 import TransitionContext from '../../context/TransitionContext';
 
+interface TransitionComponentProp {
+  children: any
+}
 
-const TransitionComponent: React.FC = ({ children }:any) => {
+
+const TransitionComponent = ({ children }: TransitionComponentProp) => {
   const router = useRouter();
   const { toggleCompleted }:any = useContext(TransitionContext);
   return (

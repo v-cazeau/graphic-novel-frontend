@@ -1,25 +1,21 @@
 import { ReactNode } from "react";
 import Footer from "./Footer/Footer";
-import OffCanvas from "../components/OffCanvas" 
-import TransitionComponent from "src/components/Transition";
-import TransitionProvider from "../components/Transition"
+import OffCanvas from "../components/OffCanvas";
+// import TransitionComponent from "../components/Transition/Transition";
+// import {TransitionProvider} from "../context/TransitionContext/TransitionContext"
 
 interface AppLayoutProps {
-    children: ReactNode;
+  children: ReactNode;
 }
 
-const AppLayout = ({children}: AppLayoutProps) => {
-    return (
-        <>
-        <OffCanvas />
-        <TransitionProvider>
-        <div className="content-container">
-          <TransitionComponent>{children}</TransitionComponent>
-        </div>
-      </TransitionProvider>
-        <Footer />
-        </>
-    );
-} 
+const AppLayout = ({ children }: AppLayoutProps) => {
+  return (
+    <>
+      <OffCanvas />
+        {children}
+      <Footer />
+    </>
+  );
+};
 
 export default AppLayout;
