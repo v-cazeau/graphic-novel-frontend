@@ -26,6 +26,8 @@ function OffCanvasExample({ placement, ...props }: OffCanvasExampleProps) {
           <Nav>
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
             <Nav.Link as={Link} to='/visual-1'>Visual One</Nav.Link>
+            <Nav.Link as={Link} to='/visual-2'>Visual Two</Nav.Link>
+            <Nav.Link as={Link} to='/visual-3'>Visual Three</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
