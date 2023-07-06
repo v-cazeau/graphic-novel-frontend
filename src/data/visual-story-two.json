@@ -1,46 +1,62 @@
 [
     {
-        "name": "ceo",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/ceo.jpg"
+        "name": "blue-khaled",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/blue-khaled.jpg"
     },
     {
-        "name": "h-and-a",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/h-and-a.jpg"
+        "name": "dean",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/dean.jpg"
     },
     {
-        "name": "neo-city-b",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-b.jpg"
+        "name": "golden-khaled",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/golden-khaled.jpg"
     },
     {
-        "name": "neo-city-m",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-m.jpg"
+        "name": "graduating-students",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/graduating-students.jpg"
     },
     {
-        "name": "neo-city-t",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-t.jpg"
+        "name": "khaled-speech",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/khaled-speech.jpg"
     },
     {
-        "name": "neo-city",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city.jpg"
+        "name": "khaled-w-chain",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/khaled-w-chain.jpg"
     },
     {
-        "name": "opera-crowd",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-crowd.jpg"
+        "name": "miami-l",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/miami-l.jpg"
     },
     {
-        "name": "opera-inside",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-inside.jpg"
+        "name": "miami-m",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/miami-m.jpg"
     },
     {
-        "name": "opera-outside",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-outside.jpg"
+        "name": "miami-r",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/miami-r.jpg"
     },
     {
-        "name": "phantom-face",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/phantom-face.jpg"
+        "name": "orange-khaled",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/orange-khaled.jpg"
     },
     {
-        "name": "secret-lair",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/secret-lair.jpg"
+        "name": "professor-k",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/professor-k.jpg"
+    },
+    {
+        "name": "professor-office",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/professor-office.jpg"
+    },
+    {
+        "name": "red-khaled",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/red-khaled.jpg"
+    },
+    {
+        "name": "side-profile-khaled",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/side-profile-khaled.jpg"
+    },
+    {
+        "name": "student-hall",
+        "image": "https://novel-images.s3.amazonaws.com/VisualTwo/student-hall.jpg"
     }
 ]
