@@ -1,50 +1,105 @@
-import { memo } from 'react';
-import type { FC } from 'react';
-
-import resets from '../styles/VisualTwo/_resets.module.scss';
-import classes from '../styles/VisualTwo/_visualtwo.module.scss';
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import AppLayout from 'src/layout/AppLayout';
+// import resets from '../styles/VisualTwo/_resets.module.scss';
+import classes from '../styles/VisualTwo/_visualtwo.module.scss';
 
-interface Props {
-  className?: string;
+
+interface ImageData {
+  name: string;
+  image: string;
 }
 
-const VisualTwo: FC<Props> = memo(function VisualTwo(props = {}) {
+const VisualTwo: React.FC = () => {
+  const [imageData, setImageData] = useState<ImageData[]>([]);
+
+  useEffect(() => {
+    fetch('https://graphic-novel-js-api.web.app/visual-story-two')
+      .then(response => response.json())
+      .then(data => {
+        setImageData(data);
+      })
+      .catch(error => {
+        console.error('Error fetching image data:', error);
+      });
+  }, []);
+
   return (
     <AppLayout>
-    <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.miamiL}></div>
-      <div className={classes.miamiR}></div>
-      <div className={classes.miamiM}></div>
-      <div className={classes.sideProfileKhaled}></div>
-      <div className={classes.deepInside}>
-        However, deep inside, he felt a yearning for something more—a desire to share his wisdom and inspire young
-        minds. And so, an unexpected twist of fate led DJ Khaled down a new path—a path that led him to become a
-        professor.
-      </div>
-      <div className={classes.onceUponATime}>
-        Once upon a time in the bustling city of Miami, a renowned music producer and DJ named DJ Khaled was riding the
-        waves of success. Known for his catchphrases, infectious beats, and collaborations with A-list musicians, DJ
-        Khaled had conquered the music industry.{' '}
-      </div>
-      <div className={classes.khaledWChain}></div>
-      <div className={classes.oneDayP}>
-        <div className={classes.textBlock}>
-          One day, DJ Khaled received an invitation from a prestigious university. The invitation was from the dean of
-          the School of Arts and Entertainment, who had heard about DJ Khaled&#39;s unmatched talent and his unique
-          ability to motivate and uplift others. The dean saw an opportunity to bring DJ Khaled&#39;s charismatic energy
-          and knowledge to the academic world. Intrigued by the invitation, DJ Khaled decided to meet with the dean.
-          They sat down in the dean&#39;s office, surrounded by shelves filled with books on art, music, and philosophy.
-          The dean explained the vision for a new course that would blend music, creativity, and entrepreneurship. It
-          would be a course like no other—a course that would inspire students to pursue their passions and manifest
-          their dreams.
-        </div>
-        <div className={classes.textBlock2}>
-          <p></p>
-        </div>
-      </div>
-      <div className={classes.image13}></div>
-      <div className={classes.image14}></div>
+    <section>
+        <Container>
+    {/* <Container className={`${resets.clapyResets} ${classes.root}`}> */}
+            {imageData.map((data, index) => (
+            <div key={index} className={classes[data.name]}></div>
+            ))}
+        <Row>
+            <Col> 
+                {imageData.length > 0 && (
+                <Image src={imageData[6]?.image} className= "miamiL" />
+                )}
+            </Col>
+            <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[7].image} className= "miamiR" />
+                )}
+            </Col>
+            <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[8].image} className= "miamiM" />
+                )}
+            </Col>
+        </Row>
+        <Container>
+            <Row>
+            <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[13].image} className= "sideProfileKhaled" />
+                )}
+            </Col>
+            <Col>
+                <div className= "onceUponATime">
+                Once upon a time in the bustling city of Miami, a renowned music producer and DJ named DJ Khaled was riding the waves of success. Known for his catchphrases, infectious beats, and collaborations with A-list musicians, DJ Khaled had conquered the music industry.{' '}
+                </div>
+            </Col>
+            <Col>
+                <div className= "deepInside" >
+                However, deep inside, he felt a yearning for something more—a desire to share his wisdom and inspire young minds. And so, an unexpected twist of fate led DJ Khaled down a new path—a path that led him to become a professor.
+                </div>
+            </Col>
+            </Row>
+            <Row>
+            <Col>
+                    <Row>
+                    {imageData.length > 0 && (
+                        <Image src= {imageData[12].image} className="khaledWChain" />
+                )}
+                    </Row>
+                    <Row>
+                    <div className="oneDayP textBlock">
+                        One day, DJ Khaled received an invitation from a prestigious university. The invitation was from the dean of the School of Arts and Entertainment, who had heard about DJ Khaled&#39;s unmatched talent and his unique ability to motivate and uplift others. The dean saw an opportunity to bring DJ Khaled&#39;s charismatic energy and knowledge to the academic world. Intrigued by the invitation, DJ Khaled decided to meet with the dean. They sat down in the dean&#39;s office, surrounded by shelves filled with books on art, music, and philosophy. The dean explained the vision for a new course that would blend music, creativity, and entrepreneurship. It would be a course like no other—a course that would inspire students to pursue their passions and manifest their dreams.
+                    </div>
+                    </Row>
+            </Col>
+            </Row>
+            <Row>
+                <Col>
+                {imageData.length > 0 && (
+                        <Image src= {imageData[11].image} className= "image13" />
+                    )}
+                </Col>
+                <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[13].image} className="image14" />
+                )}
+                </Col>
+            </Row>
+        </Container>
+    </Container>
+      
+
+      
+      
+      {/* 
       <div className={classes.professorK}></div>
       <div className={classes.studentHall}></div>
       <div className={classes.theConceptP}>
@@ -134,10 +189,10 @@ const VisualTwo: FC<Props> = memo(function VisualTwo(props = {}) {
       </div>
       <div className={classes.redKhaled}></div>
       <div className={classes.blueKhaled}></div>
-      <div className={classes.graduatingStudents}></div>
-    </div>
+      <div className={classes.graduatingStudents}></div> */}
+    </section>
     </AppLayout>
   );
-});
+};
 
 export default VisualTwo;
