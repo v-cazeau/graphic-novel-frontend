@@ -71,7 +71,7 @@ const VisualTwo: React.FC = () => {
             <Col>
                     <Row>
                     {imageData.length > 0 && (
-                        <Image src= {imageData[12].image} className="khaledWChain" />
+                        <Image src= {imageData[5].image} className="khaledWChain" />
                 )}
                     </Row>
                     <Row>
@@ -89,107 +89,107 @@ const VisualTwo: React.FC = () => {
                 </Col>
                 <Col>
                 {imageData.length > 0 && (
-                    <Image src= {imageData[13].image} className="image14" />
+                    <Image src= {imageData[1].image} className="image14" />
                 )}
                 </Col>
             </Row>
         </Container>
-    </Container>
-      
+        <Container>
+            <Row>
+                <Col>
+                <div className= "theConceptP">
+                  The concept fascinated DJ Khaled, and he knew deep down that this was an opportunity he couldn&#39;t pass up. He envisioned a class where he could not only teach about music production but also mentor aspiring artists and entrepreneurs, passing down the wisdom he had gained throughout his career.
+                </div>
+                </Col>
+                <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[4].image} className="speechKhaled" />
+                )}
+                </Col>
+                <Row>
+                    <Col>
+                    {imageData.length > 0 && (
+                    <Image src= {imageData[9].image} className="orangeKhaled" />
+                )}
+                    </Col>
+                    <Col>
+                    <div className="excitedAboutP textBlock3">
+                    Excited about the possibilities, DJ Khaled accepted the invitation and began his journey as Professor Khaled.
+                    He spent countless hours crafting lesson plans, designing engaging activities, and curating a syllabus that
+                    would empower his students to reach their full potential.
+                    <p/>
+                    On the first day of class, a diverse group of students walked into the lecture hall, unsure of what to expect.
+                    They found themselves face-to-face with DJ Khaled, who stood at the front of the room, radiating positivity
+                    and confidence. The energy in the room was palpable.
+                    </div>
+                    </Col>
+                </Row>
+            </Row>
 
-      
-      
-      {/* 
-      <div className={classes.professorK}></div>
-      <div className={classes.studentHall}></div>
-      <div className={classes.theConceptP}>
-        The concept fascinated DJ Khaled, and he knew deep down that this was an opportunity he couldn&#39;t pass up. He
-        envisioned a class where he could not only teach about music production but also mentor aspiring artists and
-        entrepreneurs, passing down the wisdom he had gained throughout his career.
-      </div>
-      <div className={classes.orangeKhaled}></div>
-      <div className={classes.speechKhaled}></div>
-      <div className={classes.excitedAboutP}>
-        <div className={classes.textBlock3}>
-          Excited about the possibilities, DJ Khaled accepted the invitation and began his journey as Professor Khaled.
-          He spent countless hours crafting lesson plans, designing engaging activities, and curating a syllabus that
-          would empower his students to reach their full potential.
+            <Row>
+                <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[14].image} className="studentHall" />
+                )}
+                </Col>
+                <Col>
+                {imageData.length > 0 && (
+                    <Image src= {imageData[10].image} className="professorK" />
+                )}
+                </Col>
+            </Row>
+        </Container>
+        <Row>
+            <Col>
+            <div className= "professorKhaledKickedOffP textBlock7" >
+            Professor Khaled kicked off the semester with an electrifying speech, sharing stories from his own life,
+            emphasizing the importance of hard work, perseverance, and staying true to oneself. He used his catchphrases
+            to inspire his students, repeating phrases like &quot;Another one!&quot; and &quot;Major key alert!&quot; to
+            drive home important lessons about resilience and the pursuit of success.
+            <p/>
+            As the weeks went by, Professor Khaled guided his students through the intricacies of music production, entrepreneurship, and personal development. He invited guest speakers from the industry, organized hands-on workshops, and encouraged his students to collaborate and create their own music projects.
+            </div>
+            </Col>
+            <Col>
+            {imageData.length > 0 && (
+                <Image src= {imageData[2].image} className="goldenKhaled" />
+            )}
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+            {imageData.length > 0 && (
+                <Image src= {imageData[12].image} className="redKhaled" />
+            )}
+            </Col>
+            <Col>
+            <div className= "professorKhaled textBlock15" >
+            Professor Khaled&#39;s infectious enthusiasm and genuine passion for his craft transformed the classroom into a hub of creativity and inspiration. He pushed his students to think outside the box, to embrace failure as a stepping stone to success, and to believe in their own unique abilities.
+            <p/>
+            Word of Professor Khaled&#39;s transformative teaching spread throughout the university and beyond. Students from other disciplines flocked to his classes, eager to experience the electrifying atmosphere he had cultivated. His lectures became legendary, often filled with surprise appearances from famous musicians and industry insiders, who recognized the value of Professor Khaled&#39;s teachings.
+            </div>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+            {imageData.length > 0 && (
+                <Image src= {imageData[3].image} className= "graduatingStudents" />
+            )}
+            </Col>
+            <Col>
+            {imageData.length > 0 && (
+                <Image src= {imageData[0].image} className= "blueKhaled" />
+            )}
+            </Col>
+        </Row>
+        <Row>
+        <div className= "yearPassedP textBlock12">
+          Years passed, and Professor Khaled&#39;s impact extended far beyond the confines of the classroom. Many of his students went on to achieve great success in the music industry, launching their own careers and attributing their accomplishments to the wisdom and guidance they had received from their beloved professor.
+            <p/>
+          Professor Khaled&#39;s journey from DJ to professor was a testament to the power of passion, perseverance, and the ability to inspire others. He had found a new purpose in life, one that allowed him to touch the lives of countless individuals and leave an indelible mark on their hearts and minds.
         </div>
-        <div className={classes.textBlock4}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock5}>
-          On the first day of class, a diverse group of students walked into the lecture hall, unsure of what to expect.
-          They found themselves face-to-face with DJ Khaled, who stood at the front of the room, radiating positivity
-          and confidence. The energy in the room was palpable.
-        </div>
-        <div className={classes.textBlock6}>
-          <p></p>
-        </div>
-      </div>
-      <div className={classes.goldenKhaled}></div>
-      <div className={classes.professorKhaledKickedOffP}>
-        <div className={classes.textBlock7}>
-          Professor Khaled kicked off the semester with an electrifying speech, sharing stories from his own life,
-          emphasizing the importance of hard work, perseverance, and staying true to oneself. He used his catchphrases
-          to inspire his students, repeating phrases like &quot;Another one!&quot; and &quot;Major key alert!&quot; to
-          drive home important lessons about resilience and the pursuit of success.
-        </div>
-        <div className={classes.textBlock8}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock9}>
-          As the weeks went by, Professor Khaled guided his students through the intricacies of music production,
-          entrepreneurship, and personal development. He invited guest speakers from the industry, organized hands-on
-          workshops, and encouraged his students to collaborate and create their own music projects.
-        </div>
-        <div className={classes.textBlock10}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock11}>
-          <p></p>
-        </div>
-      </div>
-      <div className={classes.yearPassedP}>
-        <div className={classes.textBlock12}>
-          Years passed, and Professor Khaled&#39;s impact extended far beyond the confines of the classroom. Many of his
-          students went on to achieve great success in the music industry, launching their own careers and attributing
-          their accomplishments to the wisdom and guidance they had received from their beloved professor.
-        </div>
-        <div className={classes.textBlock13}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock14}>
-          Professor Khaled&#39;s journey from DJ to professor was a testament to the power of passion, perseverance, and
-          the ability to inspire others. He had found a new purpose in life, one that allowed him to touch the lives of
-          countless individuals and leave an indelible
-        </div>
-      </div>
-      <div className={classes.professorKhaled}>
-        <div className={classes.textBlock15}>
-          Professor Khaled&#39;s infectious enthusiasm and genuine passion for his craft transformed the classroom into
-          a hub of creativity and inspiration. He pushed his students to think outside the box, to embrace failure as a
-          stepping stone to success, and to believe in their own unique abilities.
-        </div>
-        <div className={classes.textBlock16}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock17}>
-          Word of Professor Khaled&#39;s transformative teaching spread throughout the university and beyond. Students
-          from other disciplines flocked to his classes, eager to experience the electrifying atmosphere he had
-          cultivated. His lectures became legendary, often filled with surprise appearances from famous musicians and
-          industry insiders, who recognized the value of Professor Khaled&#39;s teachings.
-        </div>
-        <div className={classes.textBlock18}>
-          <p></p>
-        </div>
-        <div className={classes.textBlock19}>
-          <p></p>
-        </div>
-      </div>
-      <div className={classes.redKhaled}></div>
-      <div className={classes.blueKhaled}></div>
-      <div className={classes.graduatingStudents}></div> */}
+        </Row>
+    </Container>
     </section>
     </AppLayout>
   );

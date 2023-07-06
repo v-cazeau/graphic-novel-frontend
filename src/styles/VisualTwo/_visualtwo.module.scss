@@ -142,245 +142,177 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  // .studentHall {
-  //   position: absolute;
-  //   left: 67px;
-  //   top: 3523px;
-  //   width: 1050.7496px;
-  //   height: 573px;
-  //   background-image:/* webpackIgnore: true */ url('assets/studentHall.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .theConceptP {
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  //   position: absolute;
-  //   left: 92.5562px;
-  //   top: 2394px;
-  //   width: 754.4197px;
-  //   height: 213.6564px;
-  //   text-align: justify;
-  //   flex-direction: column;
-  // }
-  // .orangeKhaled {
-  //   position: absolute;
-  //   left: 973.7348px;
-  //   top: 2394px;
-  //   width: 759.5309px;
-  //   height: 659.7631px;
-  //   background-image:/* webpackIgnore: true */ url('assets/orangeKhaled.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .speechKhaled {
-  //   position: absolute;
-  //   left: 67px;
-  //   top: 2632.3852px;
-  //   width: 779.976px;
-  //   height: 753.7324px;
-  //   background-image:/* webpackIgnore: true */ url('assets/speechKhaled.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .excitedAboutP {
-  //   position: absolute;
-  //   left: 874.5767px;
-  //   top: 3076.5135px;
-  //   width: 892.4233px;
-  //   height: 411.4865px;
-  //   text-align: justify;
-  //   flex-direction: column;
-  // }
-  // .textBlock3 {
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock4 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock5 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock6 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .goldenKhaled {
-  //   position: absolute;
-  //   left: 1096.8056px;
-  //   top: 4171.9794px;
-  //   width: 615.1944px;
-  //   height: 575.0206px;
-  //   background-image:/* webpackIgnore: true */ url('assets/goldenKhaled.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .professorKhaledKickedOffP {
-  //   position: absolute;
-  //   left: 76px;
-  //   top: 4169px;
-  //   width: 842.5035px;
-  //   height: 578px;
-  //   text-align: justify;
-  //   flex-direction: column;
-  // }
-  // .textBlock7 {
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock8 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock9 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock10 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock11 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .yearPassedP {
-  //   position: absolute;
-  //   left: 76px;
-  //   top: 6120px;
-  //   width: 1719px;
-  //   height: min-content;
-  //   text-align: justify;
-  //   flex-direction: column;
-  // }
-  // .textBlock12 {
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock13 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock14 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .professorKhaled {
-  //   position: absolute;
-  //   left: 926.3748px;
-  //   top: 4790px;
-  //   width: 840.6252px;
-  //   height: 589px;
-  //   text-align: justify;
-  //   flex-direction: column;
-  // }
-  // .textBlock15 {
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock16 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock17 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock18 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .textBlock19 {
-  //   margin-top: 0;
-  //   color: #fff;
-  //   font-size: 30px;
-  //   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-  //     'Liberation Sans', sans-serif;
-  // }
-  // .redKhaled {
-  //   position: absolute;
-  //   left: 76px;
-  //   top: 4790px;
-  //   width: 753.9629px;
-  //   height: 663px;
-  //   background-image:/* webpackIgnore: true */ url('assets/redKhaled.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .blueKhaled {
-  //   position: absolute;
-  //   left: 970px;
-  //   top: 5470px;
-  //   width: 742px;
-  //   height: 551px;
-  //   background-image:/* webpackIgnore: true */ url('assets/blueKhaled.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
-  // .graduatingStudents {
-  //   position: absolute;
-  //   left: 218px;
-  //   top: 5470px;
-  //   width: 562px;
-  //   height: 577px;
-  //   background-image:/* webpackIgnore: true */ url('assets/graduatingStudents.png');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  // }
+  .studentHall {
+    position: absolute;
+    left: 67px;
+    top: 3523px;
+    width: 1050.7496px;
+    height: 573px;
+    // background-image:/* webpackIgnore: true */ url('assets/studentHall.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .theConceptP {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 92.5562px;
+    top: 2394px;
+    width: 754.4197px;
+    height: 213.6564px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .orangeKhaled {
+    position: absolute;
+    left: 973.7348px;
+    top: 2394px;
+    width: 759.5309px;
+    height: 659.7631px;
+    // background-image:/* webpackIgnore: true */ url('assets/orangeKhaled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .speechKhaled {
+    position: absolute;
+    left: 67px;
+    top: 2632.3852px;
+    width: 779.976px;
+    height: 753.7324px;
+    // background-image:/* webpackIgnore: true */ url('assets/speechKhaled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .excitedAboutP {
+    position: absolute;
+    left: 874.5767px;
+    top: 3076.5135px;
+    width: 892.4233px;
+    height: 411.4865px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .textBlock3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock5 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock6 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .goldenKhaled {
+    position: absolute;
+    left: 1096.8056px;
+    top: 4171.9794px;
+    width: 615.1944px;
+    height: 575.0206px;
+    // background-image:/* webpackIgnore: true */ url('assets/goldenKhaled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .professorKhaledKickedOffP {
+    position: absolute;
+    left: 76px;
+    top: 4169px;
+    width: 842.5035px;
+    height: 578px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .textBlock7 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .yearPassedP {
+    position: absolute;
+    left: 76px;
+    top: 6120px;
+    width: 1719px;
+    height: min-content;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .textBlock12 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  .textBlock14 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .professorKhaled {
+    position: absolute;
+    left: 926.3748px;
+    top: 4790px;
+    width: 840.6252px;
+    height: 589px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .textBlock15 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  .redKhaled {
+    position: absolute;
+    left: 76px;
+    top: 4790px;
+    width: 753.9629px;
+    height: 663px;
+    // background-image:/* webpackIgnore: true */ url('assets/redKhaled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blueKhaled {
+    position: absolute;
+    left: 970px;
+    top: 5470px;
+    width: 742px;
+    height: 551px;
+    // background-image:/* webpackIgnore: true */ url('assets/blueKhaled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .graduatingStudents {
+    position: absolute;
+    left: 218px;
+    top: 5470px;
+    width: 562px;
+    height: 577px;
+    // background-image:/* webpackIgnore: true */ url('assets/graduatingStudents.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
