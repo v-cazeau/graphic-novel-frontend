@@ -10,63 +10,39 @@
 //     background-color: #1e1e1e;
 //     overflow: hidden;
 //   }
-  .miamiL {
-    width: 100%;
-    height: 150%;
-    // position: absolute;
-    // left: 92px;
-    // top: 357.8285px;
-    // width: 575.4375px;
-    // height: 510.7678px;
-    // // background-image:/* webpackIgnore: true */ url('assets/miamiL.png');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-  }
-
-  @media (max-width: 768px) {
-    .miamiL {
-      height: 100%;
-    }
-  }
-  .miamiR {
-    width: 100%;
-    height: 150%;
-    position: relative;
-    // position: absolute;
-    // left: 1204.1638px;
-    // top: 348.0686px;
-    // width: 561.8362px;
-    // height: 520.5277px;
-    // // background-image:/* webpackIgnore: true */ url('assets/miamiR.png');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-  }
-
-  @media (max-width: 768px) {
-    .miamiR {
-      height: 100%;
-    }
-  }
-  .miamiM {
-    width: 100%;
-    height: 150%;
-    // position: absolute;
-    // left: 606.755px;
-    // top: 116px;
-    // width: 604.7325px;
-    // height: 822px;
-    // // background-image:/* webpackIgnore: true */ url('assets/miamiM.png');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-  }
-  @media (max-width: 768px) {
-    .miamiM {
-      height: 100%;
-    }
-  }
+//   .miamiL {
+//     position: absolute;
+//     left: 92px;
+//     top: 357.8285px;
+//     width: 575.4375px;
+//     height: 510.7678px;
+//     // background-image:/* webpackIgnore: true */ url('assets/miamiL.png');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+//   .miamiR {
+//     position: absolute;
+//     left: 1204.1638px;
+//     top: 348.0686px;
+//     width: 561.8362px;
+//     height: 520.5277px;
+//     // background-image:/* webpackIgnore: true */ url('assets/miamiR.png');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+//   .miamiM {
+//     position: absolute;
+//     left: 606.755px;
+//     top: 116px;
+//     width: 604.7325px;
+//     height: 822px;
+//     // background-image:/* webpackIgnore: true */ url('assets/miamiM.png');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
 //   .sideProfileKhaled {
 //     position: absolute;
 //     left: 92px;
@@ -80,7 +56,7 @@
 //   }
 //   .deepInside {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //     position: absolute;
@@ -93,7 +69,7 @@
 //   }
 //   .onceUponATime {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //     position: absolute;
@@ -126,14 +102,14 @@
 //   }
 //   .textBlock {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
 //   .textBlock2 {
 //     margin-top: 0;
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -183,7 +159,7 @@
 //   }
 //   .theConceptP {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //     position: absolute;
@@ -227,21 +203,21 @@
 //   }
 //   .textBlock3 {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
 //   .textBlock5 {
 //     margin-top: 0;
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
 //   .textBlock6 {
 //     margin-top: 0;
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -267,7 +243,7 @@
 //   }
 //   .textBlock7 {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -282,7 +258,7 @@
 //   }
 //   .textBlock12 {
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -290,7 +266,7 @@
 //   .textBlock14 {
 //     margin-top: 0;
 //     color: #fff;
-//     font-size: 27px;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -304,11 +280,8 @@
 //     flex-direction: column;
 //   }
 //   .textBlock15 {
-//     margin-top: 80px;
-//     transform:translate(5%, -10%);
-//     text-align: justify;
-//     color: #cd3f3f;
-//     font-size: 27px;
+//     color: #fff;
+//     font-size: 30px;
 //     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
 //       'Liberation Sans', sans-serif;
 //   }
@@ -317,7 +290,7 @@
 //     position: absolute;
 //     left: 76px;
 //     top: 4790px;
-//     width: 740px;
+//     width: 753.9629px;
 //     height: 663px;
 //     // background-image:/* webpackIgnore: true */ url('assets/redKhaled.png');
 //     background-position: center;
@@ -326,10 +299,10 @@
 //   }
 //   .blueKhaled {
 //     position: absolute;
-//     left: 750px;
+//     left: 970px;
 //     top: 5470px;
 //     width: 742px;
-//     height: 580px;
+//     height: 551px;
 //     // background-image:/* webpackIgnore: true */ url('assets/blueKhaled.png');
 //     background-position: center;
 //     background-repeat: no-repeat;
@@ -337,7 +310,7 @@
 //   }
 //   .graduatingStudents {
 //     position: absolute;
-//     left: 100px;
+//     left: 218px;
 //     top: 5470px;
 //     width: 562px;
 //     height: 577px;
@@ -346,4 +319,4 @@
 //     background-repeat: no-repeat;
 //     background-size: cover;
 //   }
-
+  
