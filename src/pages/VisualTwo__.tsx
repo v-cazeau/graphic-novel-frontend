@@ -172,12 +172,12 @@ const VisualTwo: React.FC = () => {
             </Col>
         </Row>
         <Row>
-            <Col>
+            <Col sm={12}>
             {imageData.length > 0 && (
                 <Image src= {imageData[3].image} className= "graduatingStudents" />
             )}
             </Col>
-            <Col>
+            <Col sm={12}>
             {imageData.length > 0 && (
                 <Image src= {imageData[0].image} className= "blueKhaled" />
             )}
