@@ -10,11 +10,11 @@ interface AppLayoutProps {
 
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
-    <div id="main-container">
+    <>
       <OffCanvas />
         {children}
       <Footer />
-    </div>
+    </>
   );
 };
 

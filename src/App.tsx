@@ -13,8 +13,8 @@ function App() {
       <Routes>        
         <Route path="/" element={ <Homepage /> } />
         <Route path="/visual-1" element={ <VisualOne /> } />
-        <Route path="/visual-2" element={<VisualTwo/>} />
-        <Route path="/visual-3" element={<VisualThree/>}/>
+        <Route path="/visual-2" element={<VisualTwo />} />
+        <Route path="/visual-3" element={<VisualThree />}/>
       </Routes>
     </BrowserRouter>
   );

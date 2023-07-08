@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import AppLayout from 'src/layout/AppLayout';
-// import resets from '../styles/VisualTwo/_resets.module.scss';
 import classes from '../styles/VisualTwo/_visualtwo.module.scss';
 
 
@@ -60,7 +59,7 @@ const VisualTwo: React.FC = () => {
                   </Col>
               </Row>
 
-              <Row className="g-0">
+              <Row >
                 <Col lg={12}>
                     <p className= "onceUponATime textBlock2">
                           Once upon a time in the bustling city of Miami, a renowned music producer and DJ named DJ Khaled was riding the waves of success. Known for his catchphrases, infectious beats, and collaborations with A-list musicians, DJ Khaled had conquered the music industry.
@@ -70,7 +69,7 @@ const VisualTwo: React.FC = () => {
                   </Col>
               </Row>
 
-              <Row className="g-0">
+              <Row >
                 <Col md={6} lg={6}>
                   {imageData.length > 0 && (
                     <Image src= {imageData[11].image} 

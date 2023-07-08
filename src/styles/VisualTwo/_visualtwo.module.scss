@@ -10,180 +10,65 @@
 //     background-color: #1e1e1e;
 //     overflow: hidden;
 //   }
-  .miamiL {
-    width: 100%;
-    height: 150%;
-    position: relative;
-  }
-  @media (max-width: 768px) {
-    .miamiL {
-      height: 100%;
-    }
-  }
+.miamiL,
+.miamiR,
+.miamiM {
+  width: 100%;
+  height: 150%;
+  position: relative;
+}
 
-  .miamiR {
-    width: 100%;
-    height: 150%;
-    position: relative;
-  }
-  @media (max-width: 768px) {
-    .miamiR {
-      height: 100%;
-    }
-  }
-
+@media (max-width: 768px) {
+  .miamiL,
+  .miamiR,
   .miamiM {
-    width: 100%;
-    height: 150%;
-    position: relative;
+    height: 100%;
   }
-  @media (max-width: 768px) {
-    .miamiM {
-      height: 100%;
-    }
-  }
+}
 
-  .sideProfileKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  @media (max-width: 768px) {
-    .sideProfileKhaled {
-      height: auto;
-    }
-  }
-  
-  .onceUponATime {
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    text-align: justify;
-    flex-direction: column;
-  }
-
-  .khaledWChain {
-    width: 100%;
-    height: 100%;
-  }
-
-  .oneDayP {
-    text-align: justify;
-    flex-direction: column;
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-
-  .image13 {
-    width: 100%;
-    height: 100%;
-  }
-  .image14 {
-    width: 100%;
-    height: 100%;
-  }
-  .professorK {
-    width: 100%;
-    height: 100%;
-  }
-  .studentHall {
-    width: 100%;
-    height: 100%;
-  }
-  .theConceptP {
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-  .orangeKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  .speechKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  .excitedAboutP {
-    text-align: justify;
-    flex-direction: column;
-  }
-  .textBlock3 {
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-  .textBlock5 {
-    margin-top: 0;
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-  .textBlock6 {
-    margin-top: 0;
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-  .goldenKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  .professorKhaledKickedOffP {
-    text-align: justify;
-    flex-direction: column;
-  }
-  .textBlock7 {
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-  .yearPassedP {
-    height: min-content;
-    text-align: justify;
-    flex-direction: column;
-  }
-  .textBlock12 {
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-  }
-
-//   .textBlock14 {
-//     margin-top: 0;
-//     color: #fff;
-//     font-size: 27px;
-//     font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-//       'Liberation Sans', sans-serif;
-//   }
-  .professorKhaled {
-
-    text-align: justify;
-    flex-direction: column;
-    text-align: justify;
-    color: #fff;
-    font-size: 27px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+.onceUponATime,
+.oneDayP,
+.theConceptP,
+.excitedAboutP,
+.textBlock3,
+.textBlock5,
+.textBlock6,
+.textBlock7,
+.textBlock12,
+.professorKhaled {
+  color: #fff;
+  font-size: 27px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-  }
+}
 
-  .redKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  .blueKhaled {
-    width: 100%;
-    height: 100%;
-  }
-  .graduatingStudents {
-    width:100%;
-    height:100%;
-  }
+.onceUponATime,
+.oneDayP,
+.excitedAboutP,
+.professorKhaledKickedOffP,
+.professorKhaled,
+.yearPassedP {
+  text-align: justify;
+  flex-direction: column;
+}
 
+.yearPassedP {
+  height: min-content;
+}
+
+.sideProfileKhaled,
+.redKhaled,
+.blueKhaled,
+.goldenKhaled,
+.orangeKhaled,
+.sideProfileKhaled,
+.khaledWChain,
+.image13,
+.image14,
+.professorK,
+.studentHall,
+.speechKhaled,
+.graduatingStudents {
+  width: 100%;
+  height: 100%;
+}
