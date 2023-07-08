@@ -27,7 +27,7 @@ const VisualThree: React.FC = () => {
         <AppLayout>
             <section>
                 <Container>
-                        <h2>Harmony in the Holograms: The Futuristic Phantom of the Opera</h2>
+                        <h2 style={{ color: 'white', textAlign: 'center' }}>Harmony in the Holograms: The Futuristic Phantom of the Opera</h2>
                     <Row>
                         {imageData.map((data, index) => (
                             <div key={index} className={classes[data.name]}></div>

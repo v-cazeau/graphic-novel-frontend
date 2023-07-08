@@ -27,6 +27,7 @@ const VisualTwo: React.FC = () => {
     <AppLayout>
     <section>
     <Container fluid>
+      <h2 style={{ color: 'white', textAlign: 'center' }}>From Beats to Books: DJ Khaled's Academic Encore</h2>
         <Row className="g-0">
             {imageData.map((data, index) => (
             <div key={index} className={classes[data.name]}></div>

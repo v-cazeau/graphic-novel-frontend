@@ -27,6 +27,7 @@ const VisualOne = () => {
     <AppLayout>
       <section>
         <Container fluid className="visual-board">
+          <h2 style={{ color: 'white', textAlign: 'center' }}>I Beg Your Pardon</h2>
           <Row className="g-0">
             <Col lg={12}>
               {imageData.length > 0 && <Image src={imageData[6]?.image} />}
