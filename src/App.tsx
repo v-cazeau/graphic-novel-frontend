@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import VisualOne from './pages/VisualOne'
 import VisualTwo from './pages/VisualTwo';
 import VisualThree from './pages/VisualThree';
+import VisualFour from './pages/VisualFour';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.scss';
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/visual-1" element={ <VisualOne /> } />
         <Route path="/visual-2" element={<VisualTwo />} />
         <Route path="/visual-3" element={<VisualThree />}/>
+        <Route path="/visual-4" element={<VisualFour/>} />
       </Routes>
     </BrowserRouter>
   );

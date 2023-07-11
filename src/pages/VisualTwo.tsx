@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from '../utilis/Bootstrap';
 import AppLayout from 'src/layout/AppLayout';
-import classes from '../styles/VisualTwo/_visualtwo.module.scss';
 
 
 interface ImageData {
@@ -27,24 +26,23 @@ const VisualTwo: React.FC = () => {
     <AppLayout>
     <section>
     <Container fluid>
-      <h2 style={{ color: 'white', textAlign: 'center' }}>From Beats to Books: DJ Khaled's Academic Encore</h2>
+        <Row>
+          <Col><h2 style={{ color: 'white', textAlign: 'center' }}>From Beats to Books: DJ Khaled's Academic Encore</h2></Col>
+        </Row>     
         <Row className="g-0">
-            {imageData.map((data, index) => (
-            <div key={index} className={classes[data.name]}></div>
-            ))}
               <Col sm={12} md={4}> 
                 {imageData.length > 0 && (
-                <Image src={imageData[6]?.image} className= "miamiL" />
+                <Image fluid src={imageData[6]?.image} className= "miamiL" />
                 )}
             </Col>
             <Col sm={12} md={4}>
                 {imageData.length > 0 && (
-                    <Image src= {imageData[7].image} className= "miamiR" />
+                    <Image fluid  src= {imageData[7].image} className= "miamiR" />
                 )}
             </Col>
             <Col sm={12} md={4}>
                 {imageData.length > 0 && (
-                    <Image src= {imageData[8].image} className= "miamiM" />
+                    <Image fluid src= {imageData[8].image} className= "miamiM" />
                 )}
             </Col>
         </Row>
@@ -116,8 +114,7 @@ const VisualTwo: React.FC = () => {
                   The concept fascinated DJ Khaled, and he knew deep down that this was an opportunity he couldn't pass up. He envisioned a class where he could not only teach about music production but also mentor aspiring artists and entrepreneurs, passing down the wisdom he had gained throughout his career.
                   </p>
                 </Col>
-              </Row>
-            
+              </Row>          
           </Col>
           <Col sm={12} md={4}>
             <Container>
@@ -137,7 +134,6 @@ const VisualTwo: React.FC = () => {
                     On the first day of class, a diverse group of students walked into the lecture hall, unsure of what to expect. They found themselves face-to-face with DJ Khaled, who stood at the front of the room, radiating positivity and confidence. The energy in the room was palpable.
                   </p>
                 </Col>
-
               </Row>
             </Container>
           </Col>

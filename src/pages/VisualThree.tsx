@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Image } from '../utilis/Bootstrap';
 import AppLayout from 'src/layout/AppLayout';
-import classes from '../styles/VisualThree/_visualthree.module.scss';
+
 
 
 interface ImageData {
@@ -29,9 +29,6 @@ const VisualThree: React.FC = () => {
                 <Container>
                         <h2 style={{ color: 'white', textAlign: 'center' }}>Harmony in the Holograms: The Futuristic Phantom of the Opera</h2>
                     <Row>
-                        {imageData.map((data, index) => (
-                            <div key={index} className={classes[data.name]}></div>
-                            ))}
                         <Col sm={12} md={12} lg={4}>
                             {imageData.length > 0 && (
                                 <Image src={imageData[5]?.image} 
