@@ -1,34 +1,34 @@
 [
     {
         "name": "please-one",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/please-one.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/please-one.webp"
     },
     {
         "name": "please-two",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/please-two.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/please-two.webp"
     },
     {
         "name": "please-three",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/please-three.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/please-three.webp"
     },
     {
         "name": "please-four",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/please-four.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/please-four.webp"
     },
     {
         "name": "uhm",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/uhm.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/uhm.webp"
     },
     {
         "name": "hello-name",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/hello-name.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/hello-name.webp"
     },
     {
         "name": "look",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/look.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/look.webp"
     },
     {
         "name": "hello-with-look",
-        "image": "https://raw.githubusercontent.com/v-cazeau/graphic-novel-frontend/main/public/images/VN1/hello-with-look.webp"
+        "image": "https://novel-images.s3.amazonaws.com/VisualOne/hello-with-look.webp"
     }
 ]

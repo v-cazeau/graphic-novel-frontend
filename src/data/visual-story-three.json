@@ -1,46 +1,46 @@
 [
     {
         "name": "ceo",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/ceo.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/ceo.webp"
     },
     {
         "name": "h-and-a",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/h-and-a.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/h-and-a.webp"
     },
     {
         "name": "neo-city-b",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-b.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-b.webp"
     },
     {
         "name": "neo-city-m",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-m.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-m.webp"
     },
     {
         "name": "neo-city-t",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-t.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city-t.webp"
     },
     {
         "name": "neo-city",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/neo-city.webp"
     },
     {
         "name": "opera-crowd",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-crowd.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-crowd.webp"
     },
     {
         "name": "opera-inside",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-inside.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-inside.webp"
     },
     {
         "name": "opera-outside",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-outside.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/opera-outside.webp"
     },
     {
         "name": "phantom-face",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/phantom-face.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/phantom-face.webp"
     },
     {
         "name": "secret-lair",
-        "image": "https://novel-images.s3.amazonaws.com/VisualThree/secret-lair.jpg"
+        "image": "https://novel-images.s3.amazonaws.com/VisualThree/secret-lair.webp"
     }
 ]
